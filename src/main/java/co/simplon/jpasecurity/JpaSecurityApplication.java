@@ -1,11 +1,11 @@
 package co.simplon.jpasecurity;
 
+import co.simplon.jpasecurity.entity.Post;
 import co.simplon.jpasecurity.entity.Role;
 import co.simplon.jpasecurity.entity.User;
 import co.simplon.jpasecurity.repository.PostRepository;
 import co.simplon.jpasecurity.repository.RoleRepository;
 import co.simplon.jpasecurity.repository.UserRepository;
-import co.simplon.jpasecurity.entity.Post;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

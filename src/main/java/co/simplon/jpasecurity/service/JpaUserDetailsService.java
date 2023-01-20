@@ -1,7 +1,7 @@
 package co.simplon.jpasecurity.service;
 
-import co.simplon.jpasecurity.model.SecurityUser;
 import co.simplon.jpasecurity.entity.User;
+import co.simplon.jpasecurity.model.SecurityUser;
 import co.simplon.jpasecurity.repository.UserRepository;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
