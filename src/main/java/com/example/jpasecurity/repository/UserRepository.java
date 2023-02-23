@@ -1,6 +1,6 @@
-package co.simplon.jpasecurity.repository;
+package com.example.jpasecurity.repository;
 
-import co.simplon.jpasecurity.entity.User;
+import com.example.jpasecurity.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

@@ -1,4 +1,4 @@
-package co.simplon.jpasecurity.entity;
+package com.example.jpasecurity.entity;
 
 import jakarta.persistence.*;
 

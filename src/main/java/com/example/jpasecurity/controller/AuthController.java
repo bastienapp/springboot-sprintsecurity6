@@ -1,7 +1,7 @@
-package co.simplon.jpasecurity.controller;
+package com.example.jpasecurity.controller;
 
-import co.simplon.jpasecurity.dto.LoginDto;
-import co.simplon.jpasecurity.service.TokenService;
+import com.example.jpasecurity.dto.LoginDto;
+import com.example.jpasecurity.service.TokenService;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.Authentication;

@@ -1,7 +1,7 @@
-package co.simplon.jpasecurity.controller;
+package com.example.jpasecurity.controller;
 
-import co.simplon.jpasecurity.entity.Post;
-import co.simplon.jpasecurity.repository.PostRepository;
+import com.example.jpasecurity.entity.Post;
+import com.example.jpasecurity.repository.PostRepository;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

@@ -1,6 +1,6 @@
-package co.simplon.jpasecurity.model;
+package com.example.jpasecurity.model;
 
-import co.simplon.jpasecurity.entity.User;
+import com.example.jpasecurity.entity.User;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;

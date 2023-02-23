@@ -1,4 +1,4 @@
-package co.simplon.jpasecurity.service;
+package com.example.jpasecurity.service;
 
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.GrantedAuthority;

@@ -1,4 +1,4 @@
-package co.simplon.jpasecurity.dto;
+package com.example.jpasecurity.dto;
 
 public class LoginDto {
 

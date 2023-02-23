@@ -22,7 +22,7 @@ This endpoint accepts a `LoginDto` as JSON request body:
 
 ```json
 {
-  "email": "user@simplon.co",
+  "email": "user@example.com",
   "password": "password"
 }
 ```

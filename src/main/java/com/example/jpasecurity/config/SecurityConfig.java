@@ -1,6 +1,6 @@
-package co.simplon.jpasecurity.config;
+package com.example.jpasecurity.config;
 
-import co.simplon.jpasecurity.service.JpaUserDetailsService;
+import com.example.jpasecurity.service.JpaUserDetailsService;
 import com.nimbusds.jose.jwk.source.ImmutableSecret;
 import com.nimbusds.jose.jwk.source.JWKSource;
 import com.nimbusds.jose.proc.SecurityContext;

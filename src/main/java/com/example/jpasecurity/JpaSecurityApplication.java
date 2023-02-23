@@ -1,11 +1,11 @@
-package co.simplon.jpasecurity;
+package com.example.jpasecurity;
 
-import co.simplon.jpasecurity.entity.Post;
-import co.simplon.jpasecurity.entity.Role;
-import co.simplon.jpasecurity.entity.User;
-import co.simplon.jpasecurity.repository.PostRepository;
-import co.simplon.jpasecurity.repository.RoleRepository;
-import co.simplon.jpasecurity.repository.UserRepository;
+import com.example.jpasecurity.entity.Post;
+import com.example.jpasecurity.entity.Role;
+import com.example.jpasecurity.entity.User;
+import com.example.jpasecurity.repository.PostRepository;
+import com.example.jpasecurity.repository.RoleRepository;
+import com.example.jpasecurity.repository.UserRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -27,8 +27,8 @@ public class JpaSecurityApplication {
         return args -> {
             Role roleUser = roles.save(new Role("USER"));
             Role roleAdmin = roles.save(new Role("ADMIN"));
-            users.save(new User("user@simplon.co", encoder.encode("password"), Set.of(new Role[]{roleUser})));
-            users.save(new User("admin@simplon.co", encoder.encode("password"), Set.of(new Role[]{roleUser, roleAdmin})));
+            users.save(new User("user@example.com", encoder.encode("password"), Set.of(new Role[]{roleUser})));
+            users.save(new User("admin@example.com", encoder.encode("password"), Set.of(new Role[]{roleUser, roleAdmin})));
             posts.save(new Post("Hello, World!", "Welcome to my new blog!", "Dan Vega"));
         };
     }

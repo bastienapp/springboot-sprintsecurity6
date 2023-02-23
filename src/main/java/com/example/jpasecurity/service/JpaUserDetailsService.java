@@ -1,8 +1,8 @@
-package co.simplon.jpasecurity.service;
+package com.example.jpasecurity.service;
 
-import co.simplon.jpasecurity.entity.User;
-import co.simplon.jpasecurity.model.SecurityUser;
-import co.simplon.jpasecurity.repository.UserRepository;
+import com.example.jpasecurity.entity.User;
+import com.example.jpasecurity.model.SecurityUser;
+import com.example.jpasecurity.repository.UserRepository;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
