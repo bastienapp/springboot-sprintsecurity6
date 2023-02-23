@@ -1,7 +1,7 @@
 package com.example.jpasecurity.service;
 
-import com.example.jpasecurity.entity.User;
 import com.example.jpasecurity.model.SecurityUser;
+import com.example.jpasecurity.entity.User;
 import com.example.jpasecurity.repository.UserRepository;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;

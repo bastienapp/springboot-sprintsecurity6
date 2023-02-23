@@ -3,10 +3,7 @@ package com.example.jpasecurity.controller;
 import com.example.jpasecurity.entity.Post;
 import com.example.jpasecurity.repository.PostRepository;
 import org.springframework.security.access.prepost.PreAuthorize;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/api/posts")
@@ -30,4 +27,9 @@ public class PostController {
         return post;
     }
 
+    @PostMapping("")
+    @PreAuthorize("hasAuthority('SCOPE_ADMIN')")
+    public Post create(@RequestBody Post newPost) {
+        return posts.save(newPost);
+    }
 }

@@ -12,7 +12,7 @@ One admin, one user and one blog article are created on startup.
 
 The `jwt.secret` value is loaded from the application.properties file.
 
-* filterChain: Authorize the `/login` endpoint for everyone, and you'll need to be connected for all other endpoints.
+`filterChain`: Authorize the `/login` endpoint for everyone, and you'll need to be connected for all other endpoints.
 
 ## AuthController
 

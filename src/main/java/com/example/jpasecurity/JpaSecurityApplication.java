@@ -1,11 +1,11 @@
 package com.example.jpasecurity;
 
-import com.example.jpasecurity.entity.Post;
 import com.example.jpasecurity.entity.Role;
 import com.example.jpasecurity.entity.User;
 import com.example.jpasecurity.repository.PostRepository;
 import com.example.jpasecurity.repository.RoleRepository;
 import com.example.jpasecurity.repository.UserRepository;
+import com.example.jpasecurity.entity.Post;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
